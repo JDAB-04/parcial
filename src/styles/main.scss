@@ -1,0 +1,15 @@
+@import "./variables";
+@import "./formulario";
+@import "./lista";
+@import "./navbar";
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #333;
+}

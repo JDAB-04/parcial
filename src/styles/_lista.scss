@@ -1,0 +1,31 @@
+.task-list {
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    background-color: $light;
+    border-radius: 8px;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        background-color: #f9f9f9;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        border-left: 8px solid $primary;
+        border-radius: 4px;
+  
+        &.done {
+          border-left-color: $success;
+          text-decoration: line-through;
+          color: #555;
+        }
+  
+        &.pending {
+          border-left-color: $error;
+        }
+      }
+    }
+}
+  
